@@ -47,6 +47,15 @@ Keeping your notebooks in a subfolder makes your project ready for future comple
 ### Stage 3 ([v0.3](../../tree/v0.3))
 
 Change some of your code into functions or classes to allow re-use and improve modularity.
+Learn more about "[Defining Your Own Python Function]" Python functions in the Real Python lesson.
+Open science projects often don't need classes, unless your project evolves into a package that needs "[The Power of Object-Oriented Programming]".
+
+1. choose part of your notebook that can be "modularized"
+1. sort "inputs" into an argument list, providing default values for optional arguments
+1. define the function in your "Setup" section, and use it!
+
+[Defining Your Own Python Function]: https://realpython.com/defining-your-own-python-function/
+[The Power of Object-Oriented Programming]: https://realpython.com/python-classes/
 
 ### Stage 4 ([v0.4](../../tree/v0.4))
 
