@@ -8,13 +8,14 @@ Welcome to our 🚀**PACESHIP**, a demonstration and practice repository for the
 - **PRACTICE**:
   The repository is for real! Not only can you trace the stages of development, you can use the repository to practice sharing your code with fellow hackweek participants.
 
-[tagg]: https://git-scm.com/book/en/v2/Git-Basics-Tagging
+[tag]: https://git-scm.com/book/en/v2/Git-Basics-Tagging
 
 ## Demonstration
 
-This repository is not meant to be a [template repository], nor should you clone it as a way of starting your own project.
-Instead, try following these stages from scratch.
-You can explore the state of this repository at any stage described below on GitHub (i.e. without needing a local clone) by following the `v0.x` link.
+You can explore the state of this repository at any stage described below on GitHub (i.e. without needing a local clone) simply by following the `v0.x` link.
+Navigate back to the `main` branch to see the current state of the repository.
+Note that you should not clone this repository as a way of starting your own project, nor is it a [template repository].
+Instead, try following these stages from scratch!
 
 [template repository]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
@@ -105,7 +106,7 @@ Prepare for users and contributors!
 
 ## Practice
 
-You **should** clone this repository to practice contributing to an open science project.
+You **should** clone this repository for practice contributing to an open science project.
 Like many projects, we include a CONTRIBUTING.md guide to support first-time contributors, so take a look!
 
 ## Acknowledgements
