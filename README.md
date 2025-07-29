@@ -59,22 +59,27 @@ Open science projects often don't need classes, unless your project evolves into
 
 ### Stage 4 ([v0.4](../../tree/v0.4))
 
-Migrate your functions and classes to a Python package
-- next notebook version
+So now you want to use a function of class in multiple notebooks?
+The most robust way forward&mdash;this seems like **a big deal** but is not&mdash;is migrating your functions and classes to a proper Python package.
+A package is something you can `import` in your notebooks, once it is made visible to the Python interpreter (i.e. "installed").
 
-```shell
-uv init --package
-```
-```shell
-pip install -e .
-```
+1. use the `uv` command line tool for initializing the package
+    ```shell
+    uv init --package
+    ```
+1. (recommended) delete or gitignore the ".python-version" file
+1. move your functions and classes to ".py" files inside the `src` tree
+1. use `pip` to perform an "editable" install into your Python interpreter
+    ```shell
+    pip install -e .
+    ```
 
 ### Stage 5 ([v0.5](../../tree/v0.5))
 
 Keep track of your dependencies
 
 ```shell
-uv add earthaccess xarray pillow matplotlib
+uv add numpy pillow
 ```
 ```shell
 pip install -e .
