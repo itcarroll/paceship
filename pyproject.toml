@@ -1,0 +1,14 @@
+[project]
+name = "paceship"
+version = "0.4.0"
+description = "Tools shipped by the PACE Data Hackweek mentors and participants"
+readme = "README.md"
+authors = [
+    { name = "PACE Data Hackweek" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
