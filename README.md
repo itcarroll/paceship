@@ -61,7 +61,7 @@ Open science projects often don't need classes, unless your project evolves into
 [Defining Your Own Python Function]: https://realpython.com/defining-your-own-python-function/
 [The Power of Object-Oriented Programming]: https://realpython.com/python-classes/
 
-### Stage 3 ([v0.3](../../tree/v0.3))
+### Stage 4 ([v0.4](../../tree/v0.4))
 
 While Jupyter Notebooks are text-based (they are JSON files), they can have large binary outputs encoded as text and have other drawbacks when it comes to collaboration with git.
 Jupyter Notebooks also make it possible to execute workflows "out of order", leading to problems with reproducibility.
@@ -70,7 +70,7 @@ For both of these reasons, you may want to work with Shell or Python scripts for
 TODO:
 - scripts/png-to-s3 move figure to s3 temporary storage
 
-### Stage 4 ([v0.4](../../tree/v0.4))
+### Stage 5 ([v0.5](../../tree/v0.5))
 
 So now you want to use a function or class in multiple notebooks?
 The most robust way forward&mdash;this seems like **a big deal** but is not&mdash;is to migrate your functions and classes to a Python package in the same project.
@@ -91,7 +91,7 @@ A package is something you can `import` in your notebooks, once it is made visib
     pip install -e .
     ```
 
-### Stage 5 ([v0.5](../../tree/v0.5))
+### Stage 6 ([v0.6](../../tree/v0.6))
 
 Prepare for users and contributors!
 
