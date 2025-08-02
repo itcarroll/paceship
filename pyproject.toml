@@ -7,7 +7,9 @@ authors = [
     { name = "PACE Data Hackweek" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "xarray>=2025.7.1",
+]
 
 [build-system]
 requires = ["hatchling"]

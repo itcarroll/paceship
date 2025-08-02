@@ -1,21 +1,23 @@
 # README
 
-Welcome to our 🚀**PACESHIP**, a demonstration and practice repository for the PACE Data Hackweek.
+Welcome to our 🛰️**PACESHIP**, a demonstration and practice repository for the PACE Data Hackweek.
 
 - **DEMONSTRATION**:
   The stages below offer an opinionated process for authoring an open science project that uses Python.
   Click on the version "[tag]" noted in the subsections below to peek into the history of this repository at that stage.
 - **PRACTICE**:
-  The repository is for real! Not only can you trace the stages of development, you can use the repository to practice sharing your code with fellow hackweek participants.
+  The repository is for real! Not only can you trace the stages of development,
+  you can use the repository to practice sharing your code with fellow hackweek participants.
 
 [tag]: https://git-scm.com/book/en/v2/Git-Basics-Tagging
 
 ## Demonstration
 
-You can explore the state of this repository at any stage described below on GitHub (i.e. without needing a local clone) simply by following the `v0.x` link.
+You can explore the state of this repository at any stage described below on GitHub (i.e. without needing a local clone)
+simply by following the `v0.x` link.
 Navigate back to the `main` branch to see the current state of the repository.
 Note that you should not clone this repository as a way of starting your own project, nor is it a [template repository].
-Instead, try following these stages from scratch!
+Instead, try following these stages from scratch for your own project!
 
 [template repository]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
@@ -24,7 +26,7 @@ Instead, try following these stages from scratch!
 Create a code repository on GitHub[^1] and start composing a README in your browser.
 
 1. open https://github.com/new (sign in if prompted)
-1. enter your project's code name in "**Repository name**"
+1. enter your project's "code name" in "**Repository name**"
 1. select the option to "**Add a README file**"
 1. click the "**Create repository**" button
 
