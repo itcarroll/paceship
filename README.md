@@ -104,8 +104,8 @@ TODO:
 ## PRACTICE
 
 You **should** fork this repository for practice contributing to an open science project.
-Consider adding a notebook or a script by dropping it indo the 🛰️**PACESHIP** repository through a pull request.
-You could also add functions to the `src/paceship` package in the 🛰️**PACESHIP** repository.
+Consider adding a notebook or a script by dropping it into the 🛰️**PACESHIP** repository through a pull request.
+You could also add functions to the `src/paceship` folder containing the Python package .
 Like many projects, we include a CONTRIBUTING.md guide to support first-time contributors, so take a look and ask a hackweek mentor for friendly supervision if desired!
 
 ## Acknowledgements
