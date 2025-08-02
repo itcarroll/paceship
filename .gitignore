@@ -1,7 +1,6 @@
-# Jupyter Notebooks 
+# Jupyter Notebooks (only)
 /notebooks/*
 !/notebooks/*.ipynb
-
 
 # Python-generated files
 .ipynb_checkpoints
@@ -14,3 +13,4 @@ wheels
 
 # Virtual environments
 .venv
+/.python-version

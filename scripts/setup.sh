@@ -17,7 +17,13 @@
 # Set up a new Python package
 
 # %%
-uv init --package ../
+uv init --package
+
+# %% [markdown]
+# Add the `.python-version` file to `.gitignore`
+
+# %%
+grep -qxF '/.python-version' .gitignore || echo '/.python-version' >> .gitignore
 
 # %% [markdown]
 # Add a project dependency, like `xarray` for example.
@@ -29,6 +35,4 @@ uv add xarray
 # Install the package into your current environment in editable mode.
 
 # %%
-pip install -e ../
-
-# %%
+pip install -e .
